@@ -1,23 +1,15 @@
-# Laravel React Example Full Stack Application
-Example Application build with Laravel and React
 
-> The repo was created while I was working on the following [YouTube tutorial](https://youtu.be/qJq9ZMB2Was)
-
-## Demo
-https://laravel-react.com
+## Instalação
 
 
-## Installation 
-Make sure you have environment setup properly. You will need PHP8.1, composer and Node.js.
-
-1. Download the project (or clone using GIT)
-2. Copy `.env.example` into `.env` and configure database credentials
-3. Navigate to the project's root directory using terminal
-4. Run `composer install`
-5. Set the encryption key by executing `php artisan key:generate --ansi`
-6. Run migrations `php artisan migrate --seed`
-7. Start local server by executing `php artisan serve`
-8. Open new terminal and navigate to the `react` folder
-9. Copy `react/.env.example` into `.env` and adjust the `VITE_API_BASE_URL` parameter
-9. Run `npm install`
-10. Run `npm run dev` to start vite server for React
+1. Download o projeto
+2. Copie `.env.example` para `.env` e configure as credenciais
+3. Vá para a pasta raiz do projeto
+4. Rode `composer install`
+5. Set a encryption key executando `php artisan key:generate --ansi`
+6. Rode as migrations `php artisan migrate --seed`
+7. Starte o local server executando `php artisan serve`
+8. Abra um terminal e entre na pasta react
+9. Copie `react/.env.example` dentro `.env` e ajuste`VITE_API_BASE_URL` parametro
+9. Rode `npm install`
+10. Rode `npm run dev` para iniciar o servidor
